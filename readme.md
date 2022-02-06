@@ -29,7 +29,7 @@
 * 全局异常处理 [exception-spring-boot-starter](https://github.com/Verlif/exception-spring-boot-starter)
   * 全局异常处理的组件化实现。
   * 不需要再在一个advice中写所有的异常处理了，现在只需要通过实现处理接口，异常处理器就会将对应的异常交由这个处理器处理。
-* 接口限制器 [limit-spring-boot-starter](https://github.com/Verlif/imit-spring-boot-starter)
+* 接口限制器 [limit-spring-boot-starter](https://github.com/Verlif/limit-spring-boot-starter)
   * 只需要一个注解即可对接口进行访问控制。
   * 不同的接口允许不同的限制器来管理。
 * 基础日志与接口日志服务 [logging-spring-boot-starter](https://github.com/Verlif/logging-spring-boot-starter)
