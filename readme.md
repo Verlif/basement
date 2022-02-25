@@ -5,16 +5,17 @@
 这里是Verlif的地下室，里面可能乱糟糟的，什么都有。 
 不过这些都不重要，有趣最重要。
 
-在Verlif的仓库中，提供的开源工具（以下称为“组件”）包括了：
+在Verlif的仓库中，提供的开源工具与开源组件（以下称为“组件”）包括了：
 
 * `Spring Boot`组件
 * `Java`一般组件
+* 工具&玩具
 
-这些都可以在`GitHub`中找到，并允许通过`Maven`或是`Gradle`等的构建工具将这些小东西添加到自己的项目中。
+这些都可以在`GitHub`中找到，组件允许通过`Maven`或是`Gradle`等的构建工具将这些小东西添加到自己的项目中。
 
 ## 设计原则
 
-对于这些组件的设计，我个人遵循的是低设计与高扩展原则。当然，这也只是我的设想，执行程度与我的代码能力正相关。  
+对于组件的设计，我个人遵循的是低设计与高扩展原则。当然，这也只是我的设想，执行程度与我的代码能力正相关。  
 特征包括了：
 
 * 只做基础功能。不会有复合功能类似于的工具箱这类的依赖在组件中出现。
@@ -50,20 +51,25 @@
 
 * 简单指令生成器 [just-simmand](https://github.com/Verlif/just-simmand)
   * 将任意的实例对象转换为一个指令组，其中的指令就是其拥有的公共方法。
-* Jackson序列化脱敏 [jackson-sensible](https://github.com/jackson-sensible)
+* Jackson序列化脱敏 [jackson-sensible](https://github.com/Verlif/jackson-sensible)
   * 使用便利的Jackson序列化的数据脱敏。
   * 支持几乎所有的数据类型（通过处理选择器中的脱敏处理器来实现，若内置的数据类型不足，可自行添加）。
-* 参数解析器 [param-parser](https://github.com/param-parser)
+* 参数解析器 [param-parser](https://github.com/Verlif/param-parser)
   * 将String类型转换为其他数据类型的解析器。
   * 为其他组件提供数据转换支持。
-* Jar文件加载器 [loader-jar](https://github.com/loader-jar)
+* Jar文件加载器 [loader-jar](https://github.com/Verlif/loader-jar)
   * 将Jar文件中的指定类的实例或其实现类提取出来。
   * 像是动态模组化的功能就可以使用，类似于游戏打mod。
-* Socket消息交互 [socket-core](https://github.com/socket-core)
+* Socket消息交互 [socket-core](https://github.com/Verlif/socket-core)
   * 内置了Server与Client用于简单的信息交互。
-* Socket指令交互 [socket-command](https://github.com/socket-command)
+* Socket指令交互 [socket-command](https://github.com/Verlif/socket-command)
   * 组合`socket-core`与`loader-jar`的一个多端指令系统
   * Server可以加载数个Jar文件作为指令集，并能在运行时再添加或关闭指令。
+
+### 工具&玩具
+
+* NoHtml [NoHtml](https://github.com/Verlif/NoHtml)
+  * 自动构建markdown文档的管理目录导航，像访问网页一样访问markdown文档。
 
 ## 版本说明
 
