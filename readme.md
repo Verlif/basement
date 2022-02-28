@@ -71,9 +71,9 @@
 
 ### 工具&玩具
 
-* NoHtml [NoHtml](https://github.com/Verlif/NoHtml)
+* Markdown管理器 [NoHtml](https://github.com/Verlif/NoHtml)
   * 自动构建markdown文档的管理目录导航，像访问网页一样访问markdown文档。
-* Linkmand [Linkmand](https://github.com/Verlif/LinkmandServer)
+* Link指令框架 [Linkmand](https://github.com/Verlif/LinkmandServer)
   * 基于 [socket-command](https://github.com/Verlif/socket-command) 的一个socket远程指令架构
   * 搭建了内置指令，允许客户端消息转发、基础身份认证等。
 
