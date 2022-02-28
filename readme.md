@@ -65,6 +65,9 @@
 * Socket指令交互 [socket-command](https://github.com/Verlif/socket-command)
   * 组合`socket-core`与`loader-jar`的一个多端指令系统
   * Server可以加载数个Jar文件作为指令集，并能在运行时再添加或关闭指令。
+* 文本变量解析器 [vars-parser](https://github.com/Verlif/vars-parser)
+  * 超轻量级的变量解析器，用于对文本中的格式化变量，例如`@{vars}`进行处理。
+  * 比`replaceAll`好用多了。
 
 ### 工具&玩具
 
