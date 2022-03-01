@@ -56,7 +56,7 @@
   * 支持几乎所有的数据类型（通过处理选择器中的脱敏处理器来实现，若内置的数据类型不足，可自行添加）。
 * 参数解析器 [param-parser](https://github.com/Verlif/param-parser)
   * 将String类型转换为其他数据类型的解析器。
-  * 为其他组件提供数据转换支持。
+  * 为反射或是其他组件提供数据转换支持。
 * Jar文件加载器 [loader-jar](https://github.com/Verlif/loader-jar)
   * 将Jar文件中的指定类的实例或其实现类提取出来。
   * 像是动态模组化的功能就可以使用，类似于游戏打mod。
