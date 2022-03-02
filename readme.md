@@ -68,6 +68,9 @@
 * 文本变量解析器 [vars-parser](https://github.com/Verlif/vars-parser)
   * 超轻量级的变量解析器，用于对文本中的格式化变量，例如`@{vars}`进行处理。
   * 比`replaceAll`好用多了。
+* html解析器 [html-parser](https://github.com/Verlif/html-parser)
+  * 非常简易的HTML内容解析器，能链式定位或是搜索标签节点，并获取内容。
+  * 可以作为爬虫的组件，非常轻量化。
 
 ### 工具&玩具
 
