@@ -71,6 +71,8 @@
 * html解析器 [html-parser](https://github.com/Verlif/html-parser)
   * 非常简易的HTML内容解析器，能链式定位或是搜索标签节点，并获取内容。
   * 可以作为爬虫的组件，非常轻量化。
+* 行命令解析器 [cmdline-parser](https://github.com/Verlif/cmdline-parser)
+  * 超轻量的行命令解析器，用来解析类似于`--username Verlif`这类格式的命令。
 
 ### 工具&玩具
 
