@@ -73,6 +73,9 @@
   * 可以作为爬虫的组件，非常轻量化。
 * 行命令解析器 [cmdline-parser](https://github.com/Verlif/cmdline-parser)
   * 超轻量的行命令解析器，用来解析类似于`--username Verlif`这类格式的命令。
+* 简单语言包 [easy-language](https://github.com/Verlif/easy-language)
+  * 与`ResourceBundle`类似地通过语言文件来进行本地化处理。
+  * 支持多文件夹与语言包追加。
 
 ### 工具&玩具
 
