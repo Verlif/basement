@@ -76,6 +76,8 @@
 * 简单语言包 [easy-language](https://github.com/Verlif/easy-language)
   * 与`ResourceBundle`类似地通过语言文件来进行本地化处理。
   * 支持多文件夹与语言包追加。
+* 简单停表 [stopwatch](https://github.com/Verlif/stopwatch)
+  * 用于记录时间的简单停表。
 
 ### 工具&玩具
 
