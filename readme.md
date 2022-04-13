@@ -44,8 +44,10 @@
   * 动态添加或关闭定时任务。
   * 可配置的定时任务名单。
 * 文件管理系统 [file-spring-boot-starter](https://github.com/Verlif/file-spring-boot-starter)
-  * 字节流或是Base64类型的文件上传与下载
-  * 文件的分页查询
+  * 字节流或是Base64类型的文件上传与下载。
+  * 文件的分页查询。
+* 接口等幂性实现 [norepeat-spring-boot-starter](https://github.com/Verlif/norepeat-spring-boot-starter)
+  * 针对接口的重复提交数据进行过滤，可以自定义重复判定。
 
 ### Java 组件
 
