@@ -88,6 +88,10 @@
 * Link指令框架 [Linkmand](https://github.com/Verlif/LinkmandServer)
   * 基于 [socket-command](https://github.com/Verlif/socket-command) 的一个socket远程指令架构
   * 搭建了内置指令，允许客户端消息转发、基础身份认证等。
+* Just-data [Just-data](https://github.com/Verlif/just-data)
+  * 基于Spring Boot的接口生成服务，使用SQL语句与变量参数来自动生成后台访问接口（非代码生成）
+  * 包括了登录、接口权限与文件管理，提供相对完整的应用服务。
+  * 不需要二次开发，而是直接运行的jar程序。不需要改动代码，只需要配置即可使用。
 
 ## 版本说明
 
