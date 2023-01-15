@@ -78,6 +78,8 @@
 * 简单语言包 [easy-language](https://github.com/Verlif/easy-language)
   * 与`ResourceBundle`类似地通过语言文件来进行本地化处理。
   * 支持多文件夹与语言包追加。
+* 简单文件处理 [easy-file](https://github.com/Verlif/easy-file)
+  * 文件搜索、级联删除、级联复制、Base64处理、字符串方式读写等的工具。
 * 简单停表 [stopwatch](https://github.com/Verlif/stopwatch)
   * 用于记录时间的简单停表。
 
