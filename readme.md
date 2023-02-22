@@ -86,6 +86,9 @@
   * 文件搜索、级联删除、级联复制、Base64处理、字符串方式读写等的工具。
 * 简单停表 [stopwatch](https://github.com/Verlif/stopwatch)
   * 用于记录时间的简单停表。
+* Markdown文档构造器 [MarkDone](https://github.com/Verlif/mark-done)
+  * 用于输出Markdown文档，就像输出Word文档一样。
+  * 很适合用于批量输出内容，比如爬虫输出或是文档下载。
 
 ### 工具&玩具
 
