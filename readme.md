@@ -89,6 +89,9 @@
 * Markdown文档构造器 [MarkDone](https://github.com/Verlif/mark-done)
   * 用于输出Markdown文档，就像输出Word文档一样。
   * 很适合用于批量输出内容，比如爬虫输出或是文档下载。
+* 对象对比器 [object-comparator](https://github.com/Verlif/object-comparator)
+  * 用于做数据版本对比，比如name改变了、age变为了null等等。
+  * 不再需要对对象的每个字段手动对比了，并且支持不同类的对象对比。
 
 ### 工具&玩具
 
@@ -101,6 +104,10 @@
   * 基于Spring Boot的接口生成服务，使用SQL语句与变量参数来自动生成后台访问接口（非代码生成）
   * 包括了登录、接口权限与文件管理，提供相对完整的应用服务。
   * 不需要二次开发，而是直接运行的jar程序。不需要改动代码，只需要配置即可使用。
+* MockApi [mock-api](https://github.com/Verlif/mock-api)
+  * 基于Spring Boot 2.6.14的虚拟接口生成服务，只需要一个注解即可为接口生成另一个对应的虚拟接口。
+  * 虚拟接口能通过原始接口的访问方法直接访问，并返回原始接口应该返回的数据结构，其中填充了随机数据。
+  * 简单来说就是为接口文档增加了返回结果功能，便于在文档期提供数据服务。
 
 ## 版本说明
 
