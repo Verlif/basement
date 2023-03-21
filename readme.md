@@ -54,6 +54,7 @@
 
 * 简单指令生成器 [just-simmand](https://github.com/Verlif/just-simmand)
   * 将任意的实例对象转换为一个指令组，其中的指令就是其拥有的公共方法。
+  * 就像输入指令一样调用对象方法。
 * Jackson序列化脱敏 [jackson-sensible](https://github.com/Verlif/jackson-sensible)
   * 使用便利的Jackson序列化的数据脱敏。
   * 支持几乎所有的数据类型（通过处理选择器中的脱敏处理器来实现，若内置的数据类型不足，可自行添加）。
