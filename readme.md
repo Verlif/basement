@@ -64,8 +64,8 @@
 * Jar文件加载器 [loader-jar](https://github.com/Verlif/loader-jar)
   * 将Jar文件中的指定类的实例或其实现类提取出来。
   * 像是动态模组化的功能就可以使用，类似于游戏打mod。
-* ~Socket消息交互 [socket-core](https://github.com/Verlif/socket-core)~
-  * ~内置了Server与Client用于简单的信息交互。~
+* ~~Socket消息交互 [socket-core](https://github.com/Verlif/socket-core)~~
+  * ~~内置了Server与Client用于简单的信息交互。~~
   * 现已被 [socket-point](https://github.com/Verlif/socket-point)代替
 * Socket端点 [socket-point](https://github.com/Verlif/socket-point)
   * 更简单的方式进行socket交互
